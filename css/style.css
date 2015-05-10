@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import 'reset.css';
+
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	background: #313A3B;
+}
+
+#wrapper {
+	background: #92AEB0;
+	width: 30%;
+	height: auto;
+	margin: 1em auto;
+	padding: 1em;
+	border-radius: .5em;
+}
+
+.headline h2{
+	color: #eee;
+	font-size: 4em;
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+.addList {
+	color: #888;
+	font-size: 3em;
+	margin-bottom: .5em;
+}
+
+.addList form input[type='text'] {
+	width: 100%;
+	border-radius: .2em;
+	background: #eee;
+	padding: .2em;
+	margin-bottom: .5em;
+}
+
+.addList form input[type='text']:focus {
+	border: .05em solid #2DD69B;
+	background: #E6F2C2;
+	color: #888;
+}
+
+.addList form input[type='submit'], button {
+	background: #2DD69B;
+	padding: .2em;
+	border-radius: .2em;
+	color: #888;
+}
+
+button {
+	font-size: 3em;
+}
+.addList form input[type='submit']:hover, button:hover{
+	color: #C22017;
+}
+.toDoList {
+	font-size: 3em;
+	color: #eee;
+	margin-bottom: .5em;
+}
